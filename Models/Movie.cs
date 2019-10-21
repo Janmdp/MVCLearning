@@ -12,5 +12,19 @@ namespace MvcMovie.Models
         public DateTime ReleaseDate { get; set; }
         public string Genre { get; set; }
         public decimal Price { get; set; }
+
+        public Movie(int id, string title, DateTime releaseDate, string genre, decimal price)
+        {
+            Id = id;
+            Title = title;
+            ReleaseDate = releaseDate;
+            Genre = genre;
+            Price = price;  
+        }
+
+        public Movie()
+        {
+
+        }
     }
 }

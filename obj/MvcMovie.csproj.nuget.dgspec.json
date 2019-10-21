@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\janei\\source\\repos\\MvcMovie\\MvcMovie.csproj": {}
+    "C:\\Users\\janei\\source\\repos\\Janmdp\\MVCLearning\\MvcMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\janei\\source\\repos\\MvcMovie\\MvcMovie.csproj": {
+    "C:\\Users\\janei\\source\\repos\\Janmdp\\MVCLearning\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\janei\\source\\repos\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "C:\\Users\\janei\\source\\repos\\Janmdp\\MVCLearning\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "C:\\Users\\janei\\source\\repos\\MvcMovie\\MvcMovie.csproj",
+        "projectPath": "C:\\Users\\janei\\source\\repos\\Janmdp\\MVCLearning\\MvcMovie.csproj",
         "packagesPath": "C:\\Users\\janei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\janei\\source\\repos\\MvcMovie\\obj\\",
+        "outputPath": "C:\\Users\\janei\\source\\repos\\Janmdp\\MVCLearning\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -64,7 +64,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[2.1.9, )"
+              "version": "[2.1.10, )"
             }
           },
           "imports": [
