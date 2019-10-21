@@ -22,7 +22,7 @@ namespace MvcMovie.Controllers
         // GET: Movies/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            return View(_mvcMovieData.getMovie(id));
         }
 
         // GET: Movies/Create
@@ -74,18 +74,18 @@ namespace MvcMovie.Controllers
         // GET: Movies/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            return View(_mvcMovieData.getMovie(id));
         }
 
         // POST: Movies/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult Delete(int id, Movie _movie)
         {
             try
             {
                 // TODO: Add delete logic here
-
+                _mvcMovieData.deleteMovie(id);
                 return RedirectToAction(nameof(Index));
             }
             catch

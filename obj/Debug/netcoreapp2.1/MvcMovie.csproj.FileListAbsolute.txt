@@ -67,3 +67,5 @@ C:\Users\janei\Source\Repos\Janmdp\MVCLearning\obj\Debug\netcoreapp2.1\MvcMovie.
 C:\Users\janei\Source\Repos\Janmdp\MVCLearning\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Index.cshtml.g.cs
 C:\Users\janei\source\repos\Janmdp\MVCLearning\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Create.cshtml.g.cs
 C:\Users\janei\source\repos\Janmdp\MVCLearning\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Edit.cshtml.g.cs
+C:\Users\janei\source\repos\Janmdp\MVCLearning\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Details.cshtml.g.cs
+C:\Users\janei\source\repos\Janmdp\MVCLearning\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Delete.cshtml.g.cs

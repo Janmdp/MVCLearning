@@ -94,5 +94,15 @@ namespace MvcMovie.Data
             cmd.ExecuteNonQuery();
             conn.Close();
         }
+
+        public void deleteMovie(int id)
+        {
+            SqlConnection conn = new SqlConnection(connectionstring);
+            conn.Open();
+            string query = $"DELETE FROM Movie WHERE Id = {id}";
+            SqlCommand cmd = new SqlCommand(query, conn);
+            cmd.ExecuteNonQuery();
+            conn.Close();
+        }
     }
 }
